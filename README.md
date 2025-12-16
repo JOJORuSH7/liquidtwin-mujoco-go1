@@ -1,13 +1,12 @@
-# LiquidTwin (MuJoCo Track): Go1 Locomotion with Liquid-Carrying Proxy Metrics
+# LiquidTwin: Go1 Locomotion with Liquid-Carrying Proxy Metrics
 
-This repo contains a minimal, reproducible MuJoCo track for a quadruped “robot dog” (Unitree Go1) walking with a visible cup payload, trained with Soft Actor-Critic (SAC) and evaluated with physics-inspired **proxy metrics** correlated with liquid spill risk.
+This repo contains a reproducible MuJoCo track for a quadruped “robot dog” (Unitree Go1) walking with a visible cup payload, trained with Soft Actor-Critic (SAC) and evaluated with physics-inspired **proxy metrics** correlated with liquid spill risk.
 
-> **Key idea:** We do **not** run expensive fluid simulation in-the-loop.  
-> Instead, we improve trunk stability (roll/pitch + vertical motion) and report an explainable spill-risk proxy.
+> **Key idea:** We improve trunk stability (roll/pitch + vertical motion) and report an explainable spill-risk proxy.
 
 ---
 
-## What’s inside (minimal)
+## What’s inside
 - `GO1_clean.ipynb` — the full Colab notebook (MuJoCo setup + XML patching + training + evaluation + 2K video rendering)
 
 ---
