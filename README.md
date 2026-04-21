@@ -24,7 +24,7 @@ pip install -q "gymnasium[mujoco]>=1.0.0" "stable-baselines3[extra]" mujoco tens
 
 ## How to run (recommended)
 
-1. Open `GO1_clean.ipynb` in Google Colab
+1. Open `liquidtwin-mujoco-go1.ipynb` in Google Colab
 2. Mount Drive
 3. Run cells top-to-bottom
 4. Outputs:
