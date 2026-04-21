@@ -7,7 +7,7 @@ This repo contains a reproducible MuJoCo track for a quadruped “robot dog” (
 ---
 
 ## What’s inside
-- `GO1_clean.ipynb` — the full Colab notebook (MuJoCo setup + XML patching + training + evaluation + 2K video rendering)
+- `liquidtwin-mujoco-go1.ipynb` — the full Colab notebook (MuJoCo setup + XML patching + training + evaluation + 2K video rendering)
 
 ---
 
